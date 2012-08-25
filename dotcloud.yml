@@ -3,4 +3,5 @@ jenkins:
     buildscript: jenkins/builder
     ports:
         www: http
+        jnlp: tcp
     process: ~/run
